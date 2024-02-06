@@ -1,0 +1,8 @@
+.image{
+    background-image: url(../../assets/image/flat-lay-workstation-with-copy-space-laptop.jpg);
+    height: 100vh;
+    width: 100%;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}

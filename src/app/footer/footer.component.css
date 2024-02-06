@@ -1,0 +1,14 @@
+footer p{
+font-size: 13px;
+    word-spacing: 2px;
+}
+
+footer p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 13px;
+    color: #748182;
+}
+footer{
+    background-color: #1c1c1c;
+}

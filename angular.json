@@ -24,10 +24,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [ "./node_modules/@fortawesome/fontawesome-free/css/all.min.css","./node_modules/bootstrap/dist/css/bootstrap.min.css" ,
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "061ab993-d92c-4027-a043-e5c7b7a151a5"
   }
 }

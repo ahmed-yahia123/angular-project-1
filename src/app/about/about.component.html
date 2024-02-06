@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <h1 class="fw-bold text-center mb-5">About</h1>
+     <div class="w-100 mx-auto row g-3 back ">
+        <div class="col-lg-3 rounded-3" *ngFor="let pro of products">
+            <div class="w-100 rounded-3 overflow-hidden scaling cursor-pointer">
+                <div class="w-100 rounded-3 position-relative">
+                    <img [src]="pro.img" [alt]="pro.title" class="w-100 rounded-3">
+                    <div class="layer">
+                        <h4>{{pro.title}}</h4>
+                        <p>{{pro.description}}</p>
+                        <p class="fw-bold">{{pro.price}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
